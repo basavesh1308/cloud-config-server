@@ -12,11 +12,11 @@ eureka:
 microservice:
   payment-service:
           endpoints:
-            endoint:
+            endpoint:
                   uri: http://PAYMENT-SERVICE/payments/doPayment
    
   order-service:
           endpoints:
-            endoint:
+            endpoint:
                   uri: http://ORDER-SERVICE/orders/bookOrder 
                   
